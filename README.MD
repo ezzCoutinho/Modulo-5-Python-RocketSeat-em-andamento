@@ -21,3 +21,8 @@ Criamos o connected e disconnect do socketIO. Colocamos em jogo duas novas rende
 payment, quando o cliente paga ele automaticamente será direcionado a esta pagina 
 e também disparará um disconnect do socketIO, e caso mandem um ID de pagamento
 não existente, caira na 404, que também esta rodando perfeitamente.
+
+
+##### Dia 25/02
+Hoje, fizemos alguns testes unitarios utilizando o pytest e configurando 
+a função create_payment para sempre retornar a raiz do projeto.
