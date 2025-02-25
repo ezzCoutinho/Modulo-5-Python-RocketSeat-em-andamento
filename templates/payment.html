@@ -64,6 +64,10 @@
         socket.on('connect', function() {
           console.log("Webscoket connected");
         });
+        socket.on('payment_pix_{{payment_id}}', function() {
+          console.log("Pagamento confirmado");
+          location.reload();
+        });
     </script>
   </body>
 </html>
